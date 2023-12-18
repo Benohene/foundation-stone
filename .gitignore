@@ -8,5 +8,4 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
-# Add db.sqlite3 to ignore list
 db.sqlite3
