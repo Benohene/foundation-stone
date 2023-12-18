@@ -1,1 +1,1 @@
-web: gunicorn fs_project.wsgi.application
+web: gunicorn fs_project.wsgi
