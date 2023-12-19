@@ -189,21 +189,23 @@
 <!-- Daily bible quote End -->
 
 <!-- Video display like no auto play -->
+
+
 <div class="container mt-5">
   <div class="row">
     <div class="col-12 text-center">
-      <div class="embed-responsive embed-responsive-16by9  w-80 h-80">
+      <div class="embed-responsive embed-responsive-16by9 w-80">
         <!-- Video will be replaced with backend to add URL at Backend -->
         <div id="youtube-video">
-        <iframe
-          src="https://www.youtube.com/embed/ZVnjOPwW4ZA?si=rdfTZTaoInmkjn4e"
-          title="YouTube video player"
-          class="embed-responsive-item w-100 h-100"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-    </div>
+          <iframe
+            class="embed-responsive-item"
+            src="{{ video.url }}"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </div>
   </div>
