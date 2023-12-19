@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #303030;
+}
+
+/* Add some margin between the logo and text */
+.navbar-brand img {
+  margin-right: 10px;
+  max-height: 50px; /* Adjust the height as needed */
+}
+
+#nav-bar {
+  padding: 0 5%;
+  background-color: rgb(12, 15, 214);
+}
+
+#nav-bar a {
+  color: rgb(255, 255, 255);
+}
+
+#nav-bar a:hover {
+  color: rgb(77, 137, 228);
+}
+
+/* ------------Carousel---------------- */
+#c-item {
+  height: 780px;
+}
+
+#c-img  {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.c-text {
+  margin-top: 2rem;
+}
+
+.c-text h5 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  .c-text h5 {
+    font-size: 2rem;
+    margin-top: 25%;
+  }
+  
+  #c-item {
+    height: 450px;
+  }
+}
