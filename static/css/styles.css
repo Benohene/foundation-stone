@@ -19,16 +19,27 @@ body {
 
 #nav-bar {
   padding: 0 5%;
-  background-color: rgb(12, 15, 214);
+  background-color: #0c0fd6;
 }
 
 #nav-bar a {
   color: rgb(255, 255, 255);
 }
 
-#nav-bar a:hover {
-  color: rgb(77, 137, 228);
+#nav-item a:hover {
+  background-color: white;
+  color: #0c0fd6;
+  padding: 10px;
 }
+
+.activated {
+  border: 2px solid #ffffff;
+}
+
+#youtube-video {
+  width: 100%;
+  height: 800px;
+} 
 
 /* ------------Carousel---------------- */
 #c-item {

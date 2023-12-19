@@ -39,7 +39,12 @@
       />
       <div class="carousel-caption top-0 c-text">
         <h5>WELCOME</h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vero repellendus corporis natus veniam nobis aperiam beatae facere explicabo laboriosam! Harum itaque ad quae magnam asperiores, voluptatem ipsum debitis illum.</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vero
+          repellendus corporis natus veniam nobis aperiam beatae facere
+          explicabo laboriosam! Harum itaque ad quae magnam asperiores,
+          voluptatem ipsum debitis illum.
+        </p>
       </div>
     </div>
     <div class="carousel-item" id="c-item">
@@ -51,7 +56,12 @@
       />
       <div class="carousel-caption top-0 c-text">
         <h5>WELCOME</h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vero repellendus corporis natus veniam nobis aperiam beatae facere explicabo laboriosam! Harum itaque ad quae magnam asperiores, voluptatem ipsum debitis illum.</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vero
+          repellendus corporis natus veniam nobis aperiam beatae facere
+          explicabo laboriosam! Harum itaque ad quae magnam asperiores,
+          voluptatem ipsum debitis illum.
+        </p>
       </div>
     </div>
     <div class="carousel-item" id="c-item">
@@ -63,7 +73,12 @@
       />
       <div class="carousel-caption top-0 c-text">
         <h5>WELCOME</h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vero repellendus corporis natus veniam nobis aperiam beatae facere explicabo laboriosam! Harum itaque ad quae magnam asperiores, voluptatem ipsum debitis illum.</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vero
+          repellendus corporis natus veniam nobis aperiam beatae facere
+          explicabo laboriosam! Harum itaque ad quae magnam asperiores,
+          voluptatem ipsum debitis illum.
+        </p>
       </div>
     </div>
   </div>
@@ -87,5 +102,112 @@
   </button>
 </div>
 <!-- End Carousel Hero -->
+
+<!-- About -->
+<div class="container" id="about">
+  <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12" id="about-img">
+      <img src="{% static 'images/about.jpg' %}" alt="" />
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12" id="about-text">
+      <h1>About Us</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        voluptatum, quibusdam, quia, quae voluptate quod voluptatibus voluptates
+        quos doloribus quidem voluptas. Quisquam voluptatum, quibusdam, quia,
+        quae voluptate quod voluptatibus voluptates quos doloribus quidem
+        voluptas.
+      </p>
+      <button class="btn btn-primary">Learn More</button>
+    </div>
+  </div>
+</div>
+<!-- About End -->
+
+<!-- Services -->
+<div class="container" id="services">
+  <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12" id="services-text">
+      <h1>Our Services</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        voluptatum, quibusdam, quia, quae voluptate quod voluptatibus voluptates
+        quos doloribus quidem voluptas. Quisquam voluptatum, quibusdam, quia,
+        quae voluptate quod voluptatibus voluptates quos doloribus quidem
+        voluptas.
+      </p>
+      <button class="btn btn-primary">Learn More</button>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12" id="services-img">
+      <!-- create a table with our service for wednesday, friday and sunday -->
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Time</th>
+            <th scope="col">Service</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Wednesday</th>
+            <td>7:00pm</td>
+            <td>Prayer Meeting</td>
+          </tr>
+          <tr>
+            <th scope="row">Friday</th>
+            <td>7:00pm</td>
+            <td>Prayer Meeting</td>
+          </tr>
+          <tr>
+            <th scope="row">Sunday</th>
+            <td>10:00am</td>
+            <td>Worship Service</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<!-- Services End -->
+
+<!-- Daily bible quote -->
+<div class="container" id="bible-quote">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <h1>Daily Bible Quote</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        voluptatum, quibusdam, quia, quae voluptate quod voluptatibus voluptates
+        quos doloribus quidem voluptas. Quisquam voluptatum, quibusdam, quia,
+        quae voluptate quod voluptatibus voluptates quos doloribus quidem
+        voluptas.
+      </p>
+    </div>
+  </div>
+</div>
+<!-- Daily bible quote End -->
+
+<!-- Video display like no auto play -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 text-center">
+      <div class="embed-responsive embed-responsive-16by9  w-80 h-80">
+        <!-- Video will be replaced with backend to add URL at Backend -->
+        <div id="youtube-video">
+        <iframe
+          src="https://www.youtube.com/embed/ZVnjOPwW4ZA?si=rdfTZTaoInmkjn4e"
+          title="YouTube video player"
+          class="embed-responsive-item w-100 h-100"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- End Home -->
 {% endblock content %}
